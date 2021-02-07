@@ -1,9 +1,11 @@
 import './scss/index.scss';
 import './module';
+import {Excel} from '@/components/excel/Excel';
 
-console.log('Working!');
-async function start() {
-  return await Promise.resolve('async working!');
-}
 
-start().then(console.log);
+const excel = new Excel('#app', {
+  components: [
+
+  ]
+});
+console.log(excel);
