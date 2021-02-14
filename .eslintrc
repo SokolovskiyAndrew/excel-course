@@ -11,6 +11,7 @@
     "no-trailing-spaces": "off",
     "object-curly-spacing": "off",
     "comma-dangle": "off",
+    "no-debugger": "off",
     "max-len": ["error", {"code":  100}]
   },
   "extends": ["eslint:recommended", "google"]
